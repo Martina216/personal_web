@@ -10,11 +10,12 @@ export default {
   devtools: { enabled: true },
   alias: {
     "@": fileURLToPath(new URL("./src", import.meta.url)),
-
   },
-  
   router:{
     base:'/personal_web/'
+  },
+  generate:{
+    dir:'dist'
   },
 
   modules: ["@nuxtjs/eslint-module"],
