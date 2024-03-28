@@ -6,14 +6,17 @@
 import { fileURLToPath, URL } from "node:url";
 
 
-export default{
+export default {
   devtools: { enabled: true },
-  build: {
-    outDir: "online",
-  },
   alias: {
     "@": fileURLToPath(new URL("./src", import.meta.url)),
 
   },
-};
+  
+  router:{
+    base:'/Martinas-personal-website/'
 
+  },
+
+  modules: ["@nuxtjs/eslint-module"],
+};
