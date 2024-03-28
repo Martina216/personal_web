@@ -14,8 +14,7 @@ export default {
   },
   
   router:{
-    base:'/Martinas-personal-website/'
-
+    base:'/personal_web/'
   },
 
   modules: ["@nuxtjs/eslint-module"],

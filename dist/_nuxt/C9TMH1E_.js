@@ -1,0 +1,1 @@
+import{u as o,c as t,o as s,a as e}from"./Ds47Q4gw.js";const n=e("h1",null,"home page",-1),a=e("p",null,"Current route: /home",-1),_=[n,a],p={__name:"index",setup(c){return o(),(r,u)=>(s(),t("div",null,_))}};export{p as default};

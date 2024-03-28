@@ -1,0 +1,1 @@
+import{u as o,c as a,a as t,t as n,q as r,o as s}from"./Ds47Q4gw.js";const u=t("h1",null,"about page",-1),c=t("a",{href:"https://nuxt.com/docs/getting-started/routing",target:"_blank"},"Learn more about Nuxt Routing",-1),d={__name:"about",setup(_){const e=o();return(l,p)=>(s(),a("div",null,[u,t("p",null,"Current route: "+n(r(e).path),1),c]))}};export{d as default};
